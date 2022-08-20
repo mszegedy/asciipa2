@@ -16,12 +16,14 @@ clicks implosives affricates          vowels
 -----------------------------         -----------------------------------------
 00     b?         pph bbh             close      | i   y        i@ u@     uu u
 --     d?         ts  dz              close lax  |         I Y         U
-!                 tS  dZ              close mid  | e   %        e@ o@     6  o
-                  tsh dzh             mid        |              @
-++     d^?        cs^ dz^             open mid   | E   oe       @e @o     7  O
-==                t&  dlZ             open tense | ae           9
-K      g?         kx  ggh             open       |     OE       a         aa ao
+==                t&  dlZ             close mid  | e   %        e@ o@     6  o
+!                 tS  dZ              mid        |              @
+                  ts; dz;             open mid   | E   oe       @e @o     7  O
+++                tsh dzh             open tense | ae           9
+       d^?        cs^ dz^             open       |     OE       a         aa ao
+K      g?         kx  ggh                         
        G?         qX  GGh
+
 
 other symbols
 ----------------------------------------------------------------------------
@@ -34,7 +36,7 @@ H      voicen't epiglot fric         (^)      coarticulation (tie bar above)
 sh zh  alveolo-palatal frics
 
 punctuation and suprasegmentals
-----------------------------------------------------
+--------------------------------------------------------
 ,         multigraph separator
 .         syllable separator
 1 2       primary and secondary stress markers
