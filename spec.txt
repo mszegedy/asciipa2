@@ -13,7 +13,7 @@ approximant |          v*     r*              r;     j     u*
 lat approx  |                 l               l;     l^    L     LL
 
 clicks implosives affricates          vowels
------------------------------         -----------------------------------------
+----------------------------          -----------------------------------------
 00     b?         pph bbh             close      | i   y        i@ u@     uu u
 --     d?         ts  dz              close lax  |         I Y         U
 ==                t&  dlZ             close mid  | e   %        e@ o@     6  o
@@ -62,7 +62,7 @@ multi-tone diacritics (circumflexes, carons, double accents, etc).
 bare diacritics           delimited diacritics
 ----------------------    -------------------------------------------
 0   voicen't              v   voiced           ~    creaky vowel
-=   syllabic              h   aspirated        m    linguolabial
+=   syllabic              h   aspirated        mm   linguolabial
 <   non-syllabic          h*  breathy cons't   w    labialized
 ~   nasalized             o   more rounded     j    palatalized
 >   no audible release    e   less rounded     g    velarized
