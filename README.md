@@ -21,7 +21,7 @@ A markup language, using a subset of ASCII, that compiles to IPA. Design goals:
   use that. For example, ɬ is represented by `&`, as in colloquial Inuktitut
   romanization, and ʕ is represented by `3`, as in the Arabic chat alphabet.
   
-The following ASCII characters don't appear in it at all: ``/\'"`[]{}$|``.
+The following ASCII characters don't appear in it at all: ``/'"`[]{}$|``.
 
 Example usage:
 ```python
