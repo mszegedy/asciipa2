@@ -1,0 +1,83 @@
+ASCIIPA-2
+Maria Szegedy, 2022 August
+
+pulmonic consonants besides affricates
+-------------------------------------------------------------------------------
+plosive     | p  b         t  d            t; d;  c  d^  k g   q G         ?
+nasal       |    m     mm     n               n;     n^    ng    N
+trill       |    B            r                                  R
+tflap       |          vv     4               4;
+fricative   | ph bh  f v   th dh s z  S Z  s; z;  s^ z^  x gh  X Gh  hh 3  h h*
+lat fric    |              &  lZ
+approximant |          v*     r*              r;     j     u*
+lat approx  |                 l               l;     l^    L     LL
+
+clicks implosives affricates          vowels
+-----------------------------         -----------------------------------------
+00     b?         pph bbh             close      | i   y        i@ u@     uu u
+--     d?         ts  dz              close lax  |         I Y         U
+!                 tS  dZ              close mid  | e   %        e@ o@     6  o
+                  tsh dzh             mid        |              @
+++     d^?        cs^ dz^             open mid   | E   oe       @e @o     7  O
+==                t&  dlZ             open tense | ae           9
+K      g?         kx  ggh             open       |     OE       a         aa ao
+       G?         qX  GGh
+
+other symbols
+----------------------------------------------------------------------------
+wh     voicen't labiovelar fric      44       voiced alveolar lat flap
+w      voiced labiovelar approx      SJH      this fucking thing
+yy     voiced labiopalatal approx    ()       null set (∅)
+H      voicen't epiglot fric         (^)      coarticulation (tie bar above)
+33     voiced epiglot fric           (_)      coarticulation (tie bar below)
+??     epiglot plosive               (12345)  chao tone letters
+sh zh  alveolo-palatal frics
+
+punctuation and suprasegmentals
+----------------------------------------------------
+,         multigraph separator
+.         syllable separator
+1 2       primary and secondary stress markers
+.:. .::.  minor and major groups
+:         long
+,,        half-long
+..        ejective
+(-+)      raised (diacritic as its own letter)
+(+-)      lowered (diacritic as its own letter)
+_X (XXX)  delimited diacritics (here X) on prev char
+-         literal hyphen (for glosses)
+__        literal underscore (for sound change notation)
+#         literal hash (for sound change notation)
+\X        literal X (where X is any character)
+
+Bare diacritics auto-combine onto the previous character. Delimited diacritics
+need to either be preceded by _ or to be enclosed in (). In the latter case,
+any number of delimited diacritics may be enclosed.
+
+When compiled to IPA, the tone diacritics combine into the appropriate IPA
+multi-tone diacritics (circumflexes, carons, double accents, etc).
+
+bare diacritics           delimited diacritics
+----------------------    -------------------------------------------
+0   voicen't              v   voiced           ~    creaky vowel
+=   syllabic              h   aspirated        m    linguolabial
+<   non-syllabic          h*  breathy cons't   w    labialized
+~   nasalized             o   more rounded     j    palatalized
+>   no audible release    e   less rounded     g    velarized
+-+  raised                +   advanced         3    pharyngealized
++-  lowered               -   retracted        ?    glottalized
+^_  global fall           ++  +atr             <    dental
+_^  global rise           --  -atr             >    apical
+<<  upstep                :   centralized      #    laminal
+>>  downstep              ::  mid-centralized  n    nasal release
+                          r   rhotic           l    lateral release
+                          _:  breathy vowel    LMH  tones (lo mid hi)
+
+misc delimited superscripts
+--------------------------------
+b   greek beta (for compression)
+m   latin m
+ng  latin eng
+s   latin s
+x   latin x
+X   greek chi
